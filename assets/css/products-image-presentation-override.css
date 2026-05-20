@@ -1,0 +1,45 @@
+/* products page product-image presentation aligned to approved screenshot reference */
+.products-page .product-family-grid .card,
+.products-page .support-grid .card,
+.products-page .application-grid .card,
+.products-page .industry-overview-grid .card {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  overflow: visible;
+}
+
+.products-page .product-family-grid .image-frame,
+.products-page .support-grid .image-frame,
+.products-page .application-grid .image-frame,
+.products-page .industry-overview-image {
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.products-page .product-family-grid .image-frame img,
+.products-page .support-grid .image-frame img,
+.products-page .application-grid .image-frame img,
+.products-page .industry-overview-image img {
+  width: 100%;
+  height: 240px;
+  min-height: 240px;
+  max-height: 240px;
+  object-fit: cover;
+  object-position: center;
+  background: transparent;
+  display: block;
+}
+
+.products-page .product-family-grid .card-body,
+.products-page .support-grid .card-body,
+.products-page .application-grid .card-body,
+.products-page .industry-overview-grid .card-body {
+  padding: 14px 0 0;
+  display: grid;
+  gap: 8px;
+}

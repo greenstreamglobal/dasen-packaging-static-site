@@ -1,0 +1,7 @@
+/* homepage What We Make cards */
+.home-make-grid .card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}

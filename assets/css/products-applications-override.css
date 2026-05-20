@@ -1,0 +1,33 @@
+/* products Applications and Industries: third-round clarity-focused image display */
+.products-page .industry-overview-grid .card {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  overflow: visible;
+}
+
+.products-page .industry-overview-image {
+  padding: 2px;
+  background: #f6faf8;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.products-page .industry-overview-image img {
+  width: 100%;
+  height: 236px;
+  min-height: 236px;
+  max-height: 236px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  background: #f6faf8;
+}
+
+.products-page .industry-overview-grid .card-body {
+  padding: 14px 0 0;
+  display: grid;
+  gap: 8px;
+}
